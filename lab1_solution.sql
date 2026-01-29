@@ -47,11 +47,11 @@ DROP TABLE Course;
 
 -- 9. Insert 5 records into Student
 INSERT INTO Student VALUES
-(101, 'Raja', 'CSE', 20, '9876543210', 'Delhi', 5),
-(102, 'Alok', 'ECE', 21, '9123456780', 'Patna', 5),
-(103, 'Ashish', 'CSE', 19, '9988776655', 'Ranchi', 2),
-(104, 'Anamika', 'ME', 22, '8899776655', 'Bhopal', 5),
-(105, 'Prince', 'CSE', 23, '7766554433', 'Kolkata', 6);
+(101, 'priya', 'CSE', 20, '9876543278', 'Delhi', 5),
+(102, 'riya', 'ECE', 21, '9123456779', 'Patna', 5),
+(103, 'sita', 'CSE', 19, '9988776645', 'Ranchi', 2),
+(104, 'Anamika', 'ME', 22, '8899776621', 'Bhopal', 5),
+(105, 'gita', 'CSE', 23, '7766554432', 'Kolkata', 6);
 
 -- 10. Display all records
 SELECT * FROM Student;
@@ -75,7 +75,7 @@ WHERE RollNo = 101;
 -- 15. Update city of Rahul to Patna
 UPDATE Student
 SET City = 'Patna'
-WHERE Name = 'Alok';
+WHERE Name = 'riya';
 
 -- 16. Increase age of all students by 1
 UPDATE Student
@@ -87,3 +87,4 @@ WHERE RollNo = 105;
 
 -- 18. Delete all records from Student (table remains)
 DELETE FROM Student;
+
